@@ -16,3 +16,7 @@ document.getElementById('findOut').addEventListener('click', function() {
        elements.style.display = 'initial';
     }
 })
+
+document.getElementById('again').addEventListener('click', function(){
+    window.location.reload();
+})

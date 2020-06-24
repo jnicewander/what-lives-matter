@@ -57,3 +57,8 @@ button {
 .after {
     display: none;
 }
+
+footer {
+    text-align: center;
+    color: white;
+}
