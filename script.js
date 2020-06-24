@@ -13,7 +13,7 @@ document.getElementById('findOut').addEventListener('click', function() {
     document.body.style.background
     document.body.style.backgroundImage = "url('flames.png')";
     for(let elements of afterChilds) {
-       elements.style.display = 'initial';
+       elements.style.display = 'block';
     }
 })
 
