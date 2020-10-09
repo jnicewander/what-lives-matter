@@ -84,7 +84,8 @@ const victims = [
       description: "Shot: March 18, 2018, Sacramento Police Officers", 
   },
   {
-      name: "Aaron Bailey, 1972 - June 29, 2017",
+      name: "Aaron Bailey", 
+      date: "1972 - June 29, 2017",
       location: "Indianapolis, Indiana", 
       description: "Shot: June 29, 2017, Indianapolis Metropolitan Police Officers", 
   },
@@ -95,8 +96,8 @@ const victims = [
       description: "Shot: June 18, 2017, Seattle Police Officers", 
   },
   {
-      name: "Fetus of Charleena Chavon Lyles (14-15 weeks)",
-      dates: "June 18, 2017",
+      name: "Fetus of Charleena Chavon Lyles",
+      dates: "(14-15 weeks) - June 18, 2017",
       location: "Seattle, Washington", 
       description: "Shot: June 18, 2017, Seattle Police Officers", 
   },
@@ -107,7 +108,8 @@ const victims = [
       description: "Shot: April 29, 2017, Balch Springs Officer", 
   },
   {
-      name: "Chad Robertson, 1992 - February 15, 2017",
+      name: "Chad Robertson", 
+      date: "1992 - February 15, 2017",
       location: "Chicago, Illinois", 
       description: "Shot: February 8, 2017, Chicago Police Officer", 
   },
@@ -142,7 +144,8 @@ const victims = [
       description: "Shot: August 1, 2016, Baltimore County Police", 
   },
   {
-      name: "Joseph Curtis Mann, 1966 - July 11, 2016",
+      name: "Joseph Curtis Mann", 
+      date: "1966 - July 11, 2016",
       location: "Sacramento, California", 
       description: "Shot: July 11, 2016, Sacramento Police Officers", 
   },
@@ -159,7 +162,8 @@ const victims = [
       description: "Shot: July 5, 2016, Baton Rouge Police Officers", 
   },
   {
-      name: "Bettie “Betty Boo” Jones, 1960 - December 26, 2015",
+      name: "Bettie “Betty Boo” Jones", 
+      date: "1960 - December 26, 2015",
       location: "Chicago, Illinois", 
       description: "Shot: December 26, 2015, Chicago Police Officer", 
   },
@@ -182,7 +186,8 @@ const victims = [
       description: "Shot: November 15, 2015, Minneapolis Police Officers", 
   },
   {
-      name: "Jeremy “Bam Bam” McDole, 1987 - September 23, 2015",
+      name: "Jeremy “Bam Bam” McDole", 
+      date: "1987 - September 23, 2015",
       location: "Wilmington, Delaware", 
       description: "Shot: September 23, 2015, Wilmington Police Officers", 
   },
@@ -205,7 +210,8 @@ const victims = [
       description: "Excessive Force/Wrongful Death/Suicide (?): July 10, 2015, Texas State Trooper", 
   },
   {
-      name: "Brendon K. Glenn, 1986 - May 5, 2015",
+      name: "Brendon K. Glenn", 
+      date: "1986 - May 5, 2015",
       location: "Venice, California", 
       description: "Shot: May 5, 2015, Los Angeles Police Officer", 
   },
@@ -228,7 +234,8 @@ const victims = [
       description: "Shot: April 2, 2015, Tulsa County Reserve Deputy", 
   },
   {
-      name: "Phillip Gregory White, 1982 - March 31, 2015",
+      name: "Phillip Gregory White", 
+      date: "1982 - March 31, 2015",
       location: "Vineland, New Jersey", 
       description: "K-9 Mauling/Respiratory distress: March 31, 2015, Vineland Police Officers", 
   },
@@ -353,7 +360,8 @@ const victims = [
       description: "Pepper Sprayed/Compression Asphyxiation: January 28, 2014, Northland Mall Security Guards", 
   },
   {
-      name: "Jordan Baker, 1988 - January 16, 2014",
+      name: "Jordan Baker", 
+      date: "1988 - January 16, 2014",
       location: "Houston, Texas", 
       description: "Shot: January 16, 2014, Off-duty Houston Police Officer", 
   },
@@ -370,7 +378,8 @@ const victims = [
       description: "Shot 26 times: October 3, 2013, U. S. Secret Service Officer", 
   },
   {
-      name: "Barrington “BJ” Williams, 1988 - September 17, 2013",
+      name: "Barrington “BJ” Williams", 
+      date: "1988 - September 17, 2013",
       location: "New York City, New York", 
       description: "Neglect/Disdain/Asthma Attack: September 17, 2013, New York City Police Officers", 
   },
@@ -381,7 +390,8 @@ const victims = [
       description: "Shot: September 14, 2013, Charlotte-Mecklenburg  Police Officer", 
   },
   {
-      name: "Carlos Alcis, 1970 - August 15, 2013",
+      name: "Carlos Alcis", 
+      date: "1970 - August 15, 2013",
       location: "Brooklyn, New York City", 
       description: "Heart Attack/Neglect: August 15, 2013, New York City Police Officers", 
   },
@@ -416,7 +426,8 @@ const victims = [
       description: "Restrained face-down prone: February 12, 2013, Berkeley Police Officers", 
   },
   {
-      name: "Jamaal Moore Sr., 1989 - December 15, 2012",
+      name: "Jamaal Moore Sr.", 
+      date: "1989 - December 15, 2012",
       location: "Chicago, Illinois", 
       description: "Shot: December 15, 2012, Chicago Police Officer", 
   },
@@ -463,7 +474,8 @@ const victims = [
       description: "Shot: September 7, 2012, New York City Police Officer", 
   },
   {
-      name: "Chavis Carter, 1991 - July 28, 2012",
+      name: "Chavis Carter", 
+      date: "1991 - July 28, 2012",
       location: "Jonesboro, Arkansas", 
       description: "Shot: July 28, 2012, Jonesboro Police Officer", 
   },
@@ -492,7 +504,8 @@ const victims = [
       description: "Run over by police car: April 12, 2012, New York City Police Officers", 
   },
   {
-      name: "Ervin Lee Jefferson, III, 1994 - March 24, 2012",
+      name: "Ervin Lee Jefferson, III", 
+      date: "1994 - March 24, 2012",
       location: "Atlanta, Georgia", 
       description: "Shot: March 24, 2012, Shepperson Security &amp;Escort Services Security Guards", 
   },
@@ -509,7 +522,8 @@ const victims = [
       description: "Shot: March 21, 2012, Off-duty Chicago Police Detective", 
   },
   {
-      name: "Shereese Francis, 1982 - March 15, 2012",
+      name: "Shereese Francis", 
+      date: "1982 - March 15, 2012",
       location: "Queens, New York City, New York", 
       description: "Suffocated to death: March 15, 2012,  New York City Police Officers", 
   },
@@ -538,7 +552,8 @@ const victims = [
       description: "Shot: March 1, 2012, Ranger Security Guards", 
   },
   {
-      name: "Raymond Luther Allen Jr., 1978 - February 29, 2012",
+      name: "Raymond Luther Allen Jr.", 
+      date: "1978 - February 29, 2012",
       location: "Galveston, Texas", 
       description: "Tasered/Electrocuted: February 27, 2012, Galveston Police Officers", 
   },
@@ -627,7 +642,8 @@ const victims = [
       description: "Tasered/Run over: October 3, 2009, Pensacola Police Officer", 
   },
   {
-      name: "Shem Walker,  March 18, 1960 - July 11, 2009",
+      name: "Shem Walker",
+      date: "March 18, 1960 - July 11, 2009",
       location: "Brooklyn, New York", 
       description: "Shot: July 11, 2009, New York City Undercover C-94 Police Officer", 
   },
@@ -686,12 +702,14 @@ const victims = [
       description: "Shot: January 24, 2004, New York City Police Officer", 
   },
   {
-      name: "Ousmane Zongo, 1960 - May 22, 2003",
+      name: "Ousmane Zongo", 
+      date: "1960 - May 22, 2003",
       location: "New York City, New York", 
       description: "Shot: May 22, 2003, New York City Police Officer", 
   },
   {
-      name: "Alberta Spruill, 1946 - May 16, 2003",
+      name: "Alberta Spruill", 
+      date: "1946 - May 16, 2003",
       location: "New York City, New York", 
       description: "Stun grenade thrown into her apartment led to a heart attack: May 16, 2003, New York City Police Officer", 
   },
@@ -714,12 +732,14 @@ const victims = [
       description: "Shot: April 7, 2001, Cincinnati Police Patrolman", 
   },
   {
-      name: "Ronald Beasley, 1964 - June 12, 2000",
+      name: "Ronald Beasley", 
+      date: "1964 - June 12, 2000",
       location: "Dellwood, Missouri", 
       description: "Shot: June 12, 2000, Dellwood Police Officers", 
   },
   {
-      name: "Earl Murray, 1964 - June 12, 2000",
+      name: "Earl Murray", 
+      date: "1964 - June 12, 2000",
       location: "Dellwood, Missouri", 
       description: "Shot: June 12, 2000, Dellwood Police Officers", 
   },
@@ -742,12 +762,14 @@ const victims = [
       description: "Shot: March 1, 2000, New York City Police Officer", 
   },
   {
-      name: "LaTanya Haggerty, 1973 - June 4, 1999",
+      name: "LaTanya Haggerty", 
+      date: "1973 - June 4 1999", 
       location: "Chicago, Illinois", 
       description: "Shot: June 4, 1999, Chicago Police Officer", 
   },
   {
-      name: "Margaret LaVerne Mitchell, 1945 - May 21, 1999",
+      name: "Margaret LaVerne Mitchell", 
+      date: "1945 - May 21, 1999", 
       location: "Los Angeles, California", 
       description: "Shot: May 21, 1999, Los Angeles Police Officer", 
   },
@@ -770,7 +792,8 @@ const victims = [
       description: "Shot: June 7, 1997, Newark Police Officer", 
   },
   {
-      name: "Frankie Ann Perkins, 1960 - March 22, 1997",
+      name: "Frankie Ann Perkins", 
+      date: "1960 - March 22, 1997", 
       location: "Chicago, Illinois", 
       description: "Brutal Force/Strangled: March 22, 1997, Chicago Police Officers", 
   },
@@ -781,12 +804,14 @@ const victims = [
       description: "Shot: September 27, 1994, New York City Police Officer", 
   },
   {
-      name: "Mary Mitchell, 1950 - November 3, 1991",
+      name: "Mary Mitchell", 
+      date: "1950 - November 3, 1991", 
       location: "The Bronx, New York City, New York", 
       description: "Shot: November 3, 1991, New York City Police Officer", 
   },
   {
-      name: "Yvonne Smallwood, 1959 - December 9, 1987",
+      name: "Yvonne Smallwood", 
+      date: "1959 - December 9, 1987",
       location: "New York City, New York", 
       description: "Severely beaten/Massive blood clot: December 3, New York City Police Officers", 
   },
@@ -809,7 +834,8 @@ const victims = [
       description: "Shot: January 3, 1979, Los Angeles County Police Officers", 
   },
   {
-      name: "Arthur Miller Jr., 1943 - June 14, 1978",
+      name: "Arthur Miller Jr.", 
+      date: "1943 - June 14, 1978", 
       location: "Brooklyn, New York City, New York", 
       description: "Chokehold/Strangled: June 14, 1978, New York City Police Officers", 
   },
@@ -837,5 +863,21 @@ const victims = [
       location: "Harlem, New York City, New York", 
       description: "Shot: May 23, 1968, New York City Transit Police Officer", 
   }
-
 ];
+
+function hasNumber(myString) {
+  return /\d/.test(myString);
+}
+
+function runIT() {
+  let count = 0;
+  victims.forEach(obj => {
+    if(hasNumber(obj.name)) {
+      count++;
+      console.log(obj.name);
+    }
+  });
+  console.log(count);
+}
+
+runIT();
