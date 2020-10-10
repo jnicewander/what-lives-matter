@@ -1,4 +1,4 @@
-const victims = [
+export const victims = [
     {
       name: 'David McAtee',      
       birthday: 'August 3, 1966',
@@ -1583,4 +1583,4 @@ const victims = [
         },
         description: 'Shot: May 23, 1968, New York City Transit Police Officer'
       }
-    ]
+    ];
