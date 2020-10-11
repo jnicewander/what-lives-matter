@@ -39,9 +39,18 @@ function randomFill() {
     let counter = 0;
     let prevHeight = 0;
     let childHeight = 0;
+    let halfVH = vh / 2;
+    let hasHeading = false;
     while (childHeight <= vh + ((vh * 25) / 100)) {
         let victim = randomName();
         if (victim) {
+            if (childHeight > halfVH && !hasHeading) {
+                const heading = document.createElement('span');
+                heading.innerText = 'BLACK LIVES MATTER';
+                heading.style.color = 'white';
+                spanContainer.append(heading);
+                hasHeading = true;
+            }
             const span = document.createElement('span');
             span.innerText = `  ${victim.name.toUpperCase()}  `;
             spanContainer.appendChild(span);
@@ -59,11 +68,5 @@ function randomFill() {
 
 randomFill();
 
-// set color
-// add spans width up
-// check if total is wider than VW + Margins
-// if yes ->
-//      clear span width tracker
-//      increase color lightness val
-// if no -> 
-//      loop again
+// child height needs to be close to halfVH 
+// within one row height 
